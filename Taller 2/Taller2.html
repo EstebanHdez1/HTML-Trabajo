@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taller 2</title>
+
+    <script>
+        function myFunction(x) {
+      x.classList.toggle("fa-thumbs-down");
+            }
+    </script>
+    <style>
+        #Lista {
+            background-color: #E3F00F;
+            position: absolute;
+            width: 100%;
+        }
+        #Lista a {
+            float:left;
+            display: block;
+            color: #000000;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .navlist-right{
+        float:left;
+        }
+
+        #Lista form {
+            float:right
+        }
+          
+
+        .Buscar input[type=text]{
+            width:200px;
+            height:25px;
+            border: none;
+        }
+              
+        .Buscar{
+            margin:7px;
+        }
+              
+        .Buscar button{
+            background-color: #515151;
+            color: #f2f2f2;
+            padding: 5px 10px;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+        } 
+
+        body {
+            height:665px;
+            width: 1000px;
+            background-image: url("https://img.freepik.com/vector-gratis/fondo-abstracto-rayas-arqueadas-tapa-parte-inferior-diseno-vector_1164-1300.jpg");
+            background-repeat: repeat-y;
+            background-size: 1000rem;
+        }
+        #imgs {
+        background-repeat: no-repeat;
+        border-radius: 4%;
+        background-size: 100% auto;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="Lista">
+        
+        <a href="#">Home</a>
+        <a href="#">Comentanos</a>
+        <a href="C:\Users\esteb\Workspace\Taller 2/Reg.html">|Registrarse|</a>
+        <form action="/SingUp" method="GET">
+            <label for="usuario">Usuario</label>
+            <input type=""id="usuario" name="usuario" placeholder="Usuario"/>
+            <br>
+            <center>
+                <button href=""type="submit">SingIn</button>
+            </center>
+        </form>
+        <div class="Buscar">
+            <form action="#">
+                <img src="https://http2.mlstatic.com/static/org-img/homesnw/mercado-libre.png?v=2" width="30" height="30"/>
+                <input type="text"placeholder=" Buscar Imagenes"name="Buscar">
+            </form>
+            
+        </div>
+        
+    </div>
+  
+    </div>
+        <h1>Mercado De NFTS</h1>
+    </header>
+    <section>
+
+        <article>
+            <h2>Macaco 1-NFT</h2>
+            <p>Mono 1 con coronda de rey y gafas de corazon</p>
+            <img id="imgs"style="border: 2px solid; color: black;" src="m1.jpg"width="400" height="200"/>
+            <br>
+            <tr>
+                <!--W3.schools.com-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <th>/ FCoin: 50,000</th>
+            <th>/ Bitcoins: 47.72</th>
+            </tr>
+            <p>Nuevo Articulo</p>
+        </article>
+        <hr>
+        <article>
+            <h2>Macaco 2-NFT</h2>
+            <p>Mono 2 con gafas de corazon y ropa amarilla</p>
+            <img id="imgs" style="border: 2px solid; color: black;"src="m2.jpg"width="400" height="200"/>
+            <br>
+            <tr>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <th>/ FCoin: 100,000</th>
+            <th>/ Bitcoins: 167.02</th>
+            </tr>
+            <p>Este articulo se vendio 4 veces</p>
+        </article>
+        <hr>
+        <article>
+            <h2>Macaco 3-NFT</h2>
+            <p>Mono 3 con gafas cuadradas,aurora y playera</p>
+            <img id="imgs"style="border: 2px solid; color: black;"src="m3.jpg"width="400" height="200"/>
+            <br>
+            <tr>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <th>/ FCoin: 500,000</th>
+            <th>/ Bitcoins: 286.32</th>
+            </tr>
+            <p>Este articulo se vendio 50 veces</p>
+        </article>
+        <hr>
+        <form action="/Comment" method="POST">
+        <label for="comentarios">Comentario</label>
+             <br>
+             <textarea rows="5" id="comentario" placeholder="Inserta un comentario" name="comentario"></textarea>
+             <button type="submit">Comentar</button>
+        </form>
+
+    </section>
+    <br>
+    <hr noshade="noshade">
+    <footer>
+        <br>
+        <center>
+        <a href="mailto:ehernandezlo@unbosque.edu.co">Esteban Hernandez Londoño</a>
+        </center>
+        <br>
+        <br>
+        <p>Copyright 2022</p>
+    </footer>
+</body>
+</html>
