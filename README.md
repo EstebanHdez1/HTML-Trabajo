@@ -1,4 +1,4 @@
-Esteban Hernandez Londoño
+Esteban Hernandez Londoño - Andres Del Rio Peñaralda
 
 Video Mostrando el funcionamiento.
 
